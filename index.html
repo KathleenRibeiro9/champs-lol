@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="logo">
+        <img src="./images/logo.png" alt="Logo">
+    </div>
+    <div class="filters">
+        <label for="laneFilter">Filtrar por Lane:</label>
+        <select id="laneFilter">
+            <option value="all">Todos</option>
+            <option value="fighter">Fighter</option>
+            <option value="mage">Mage</option>
+            <option value="assassin">Assassin</option>
+            <option value="tank">Tank</option>
+            <option value="support">Support</option>
+            <option value="marksman">Marksman</option>
+        </select>
+        <label for="searchChampion">Pesquisar por Nome:</label>
+        <input type="text" id="searchChampion" placeholder="Digite o nome do campeão">
+    </div>
+    <div class="champions-gallery" id="championGallery">
+        <!-- Aqui é onde a galeria de campeões será gerada dinamicamente pelo script.js -->
+    </div>
+
+    <footer class="footer">
+        <p>Feito por Kathleen | Campeões © Riot Games</p>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/champion.js"></script>
+</body>
+</html>

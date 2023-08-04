@@ -1,0 +1,129 @@
+
+
+.navbar {
+    background-color: #272727;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+/* Estilos para a página de descrição de campeões */
+.champion-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.back-btn {
+    background-color: #272727;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover {
+    background-color: #fff;
+    color: #272727;
+}
+
+#championDetails h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#championDetails h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c8a355;
+}
+
+#championDetails p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.ability-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ability {
+    width: 48%;
+    background-color: #272727;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.ability h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #c8a355;
+}
+
+.ability img {
+    max-width: 100px;
+}
+
+.skin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skin {
+    width: 30%;
+    background-color: #272727;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.skin h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #c8a355;
+}
+
+.skin img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+/* Estilos para o carrossel de skins */
+.skin-carousel-container {
+    display: flex;
+    overflow-x: auto; /* Permite rolar o carrossel horizontalmente */
+    gap: 10px;
+    padding: 10px;
+}
+
+.skin-carousel img {
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skin-carousel img:hover {
+    transform: scale(1.05);
+}
